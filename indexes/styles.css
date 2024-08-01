@@ -1,0 +1,106 @@
+
+body {
+    font-family: sans-serif;
+    margin: 1.25rem; 
+    
+}
+
+
+header {
+    background-color: #0000ff; 
+    padding: 0.625rem; 
+    text-align: center;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+h1 {
+    color: #008000; 
+    background-color: #0000ff;
+}
+
+
+#home img {
+    display: block;
+    margin: 1.25rem; 
+    min-height: fit-content;
+}
+
+
+hr {
+    border: 0;
+    height: 0.0625rem; 
+    background-color: #FFA500;
+    margin: 1.25rem; 
+}
+.tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 30%;
+    height: 18.75rem;
+}
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: #14c904;
+    padding:  1rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 1.063rem;
+  }
+  .tab button:hover {
+    background-color: #ffbc40;
+  }
+  .tab button.active {
+    background-color: hsl(187, 74%, 75%);
+  }
+  .tabcontent {
+    float: left;
+    padding: 0.75rem;
+    border: 0.063rem solid #e7e7e7;
+    width: 70%;
+    border-left: none;
+    height: 18.75rem;
+  }
+  * {box-sizing: border-box}
+body {font-family: sans-serif;}
+h3 {
+color: #008000;
+}
+p {
+    color: #6514e7;
+    font-size: x-large;
+    font-family: sans-serif;
+    
+}
+h2{
+    color: #008000;
+}
+header {
+    background-color: #0000ff;
+    padding: 0.625rem;
+
+}
+image {
+    block-size: 0%;
+    margin: 1.25rem;
+
+}
+nav {
+    style:none;
+    padding: 0;
+
+}
+h4, h5{
+    color: #14c904;
+    font-size: larger;
+}
